@@ -1,0 +1,98 @@
+.topnav {
+    
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    z-index: 8;
+
+  }
+  
+  .navbar{
+  background-color: #333;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+  
+    color: #f2f2f2;
+    align-items: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: pink;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    color: #e4e4e4;
+  }
+  
+ .topnav-right {
+  float: right;
+}
+  
+
+  .main-div{
+      background-color: #c5c1c1;
+      padding: 0px 100px;
+      margin-top: 200px;
+      width: 100%;
+      position: absolute;
+      z-index: 7;
+  }
+  
+  .header{
+      background-color: #ffffff;
+      padding: 50px 16px 0px;
+      width: 100%;
+  }
+  
+    .secondnav a{
+      color: #333;
+      padding-bottom: 10;
+  }
+  
+  .secondnav a:is(:link, :active, :visited).active{
+    color: #27b403;
+}
+
+  .navbar a:is(:link, :active, :visited).active{
+    color: #27b403;
+}
+
+ .navbar a.active {
+    color: rgb(187, 184, 184);
+  }
+  
+   h1{
+    padding: 30px 16px;
+      text-align: center;
+      font-size: 36px;
+  }
+
+  .btn{
+      background-color: #27b403;
+      border: none;
+      
+  }
+  
+  .flex-box-container{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+   
+   
+}
+  

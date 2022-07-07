@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+*{
+	font-family: 'Montserrat', sans-serif;
+	}
+  
+  .msg-div{
+
+ background-color: #c5c1c1;
+      padding: 40px 200px 0;
+      width: 100%;
+      z-index: 7;
+      position: absolute;
+  }
+
+  .btn{
+      background-color: #27b403;
+      font-size: 14px;
+      border: none;
+      
+  }
+  
+
+
+.flex-box-container2{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    
+   
+}
+
+.flex-box-container3{
+    background-color: #c5c1c1;
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    
+   
+}
+
+  .card{
+    padding: 20px 10px;
+    border: none;
+}
+
+.card-body{
+    font-size: 14px;
+    text-align: center;
+}
+
+h5{
+    color: #27b403;
+    font-size: 16px;
+}
+
+form{
+	align-self: center;
+	width: 70%;
+	margin: 0 auto;
+	padding: 0px 120px 0px 120px;
+}
+
+.form2{
+	align-self: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px 120px 0px 120px;
+}
+
+.buttons{
+	padding: 10px;
+}
+
+.footer {
+	z-index: 9;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+   color: #f2f2f2;
+   text-align: center;
+}
